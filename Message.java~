@@ -1,0 +1,16 @@
+public class Message {
+    
+    public static void main(String[] args) {
+	
+	int x = 1;
+	double y = 2.5;
+	char z = 'A';
+	boolean w = true;
+	string s = "the list of values of my variables is : ";
+
+	string delimiter = ", ";
+
+	System.out.println("Hello and welcome to Java Programming!");
+	System.out.println(s + x + delimiter + z);
+    }
+}

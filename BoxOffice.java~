@@ -1,0 +1,25 @@
+import java.util.Scanner;
+import java.io.*;
+
+public class BoxOffice {
+   
+    public static void main ( String[] args ) throws IOException {
+
+	Scanner stdin = new Scanner(System.in);
+	String inData;
+	int age;
+
+	System.out.println("Enter your age:");
+	inData = stdin.readLine();
+	age = Integer.parseInt( inData ); // convert inData to int
+
+	if (age > 18 ) {
+	    System.out.println("Child rate.");
+	}
+	
+	else {
+	    System.out.println("Adult rate.");
+	}
+	System.out.println("Enjoy the show."); // always executed
+    }
+}

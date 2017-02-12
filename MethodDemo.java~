@@ -1,0 +1,22 @@
+public class MethodDemo {
+
+    public String str1 = "I'm A String!";
+    public int int1 = 500000;
+    public String str2 = "OUTPUT";
+    public int int2 = 0;
+
+    public String getMessage() {
+	
+	return message;
+
+    }
+
+    public static void main(String[] args) {
+	
+	MethodDemo md = new MethodDemo();
+
+	System.out.println(md.getMessage());
+    }
+}
+
+    

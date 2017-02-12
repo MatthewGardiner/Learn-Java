@@ -1,0 +1,34 @@
+1. cat file1
+
+2. pwd
+
+3. cd
+
+4. ls -l
+
+5. ls -l > fileList
+
+6. cp test1.txt /cpt/computing/courses/
+
+7. mv draft final
+
+8. diff file1 file2
+
+9.
+
+10. Lines words characters
+
+11. a. mkdir Coursework
+    b. home/username/Coursework/SD1/cw1.
+       home/username/Coursework/SDP/fish.java
+
+12. Standard input is the user's keyboard.
+    Standard output is data created by a CLI.
+
+13. A pipe is a symbol used in commands to redirect a program to become the input.
+    A filter is designed to process a different program's output and alter it.
+
+14. grep (surname)
+
+15. Meaning change mode, allows the user to alter file permissions. It should be used with care because you can disable your user
+account's permissions so they cannot alter files.
